@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040757357759",
+    "firebase_url": "https://fun-labs-ef646.firebaseio.com",
+    "project_id": "fun-labs-ef646",
+    "storage_bucket": "fun-labs-ef646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040757357759:android:02efd4188d692b3fea9a0a",
+        "android_client_info": {
+          "package_name": "id.trydev.funlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040757357759-se49tj68931joped6cqvoj50jnof28js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchO1wz5jG9yqTS6CwsftBlzrtBNMog74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040757357759-se49tj68931joped6cqvoj50jnof28js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

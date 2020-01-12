@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fun Lab</string>
+    <string name="tentang_pengembang">E-mail: fahri.lafa@gmail.com\nPhone: +628975504812</string>
+    <string-array name="logout">
+        <item>Keluar</item>
+    </string-array>
+    <string name="sisa">%1d botol</string>
+</resources>

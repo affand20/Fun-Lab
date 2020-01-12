@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.trydev.funlab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_custom"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_custom"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeNoActionBar">
+        <activity android:name="id.trydev.funlab.ui.main.scan.ScanActivity"></activity>
+        <activity android:name="id.trydev.funlab.ui.main.stock.StockActivity" />
+        <activity android:name="id.trydev.funlab.ui.main.riwayat.RiwayatActivity" />
+        <activity
+            android:name="id.trydev.funlab.ui.main.tentang.TentangActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="id.trydev.funlab.ui.register.RegisterActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="id.trydev.funlab.ui.login.LoginActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.main.MainActivity" />
+    </application>
+
+</manifest>
